@@ -9,22 +9,35 @@
   padding-top: 60px;
   padding-bottom: 60px;
 }
-.made {
+.about {
   background-color: #84a178;
 }
-.korova {
+.about__korova {
   margin: 0 auto;
   width: 270px;
   height: 270px;
-  border: 1px solid teal;
+  border: 1px solid rgba(248, 210, 78, 0.7);
   border-radius: 50%;
-  background-image: url(../img/korova.jpg);
 
+  /* background: linear-gradient(
+      0deg,
+      rgba(248, 210, 78, 0.7),
+      rgba(248, 210, 78, 0.7)
+    ),
+    #d9d9d9;
   box-shadow: 0px 4.48583px 16.8218px rgba(153, 114, 23, 0.25);
+  border-radius: 140.182px; */
 }
-.subtitle {
+.about__korova::before {
+  width: 270px;
+  height: 270px;
+  border: 1px solid tomato;
+  /* background-image: url(../img/korova.png);
+  background-repeat: no-repeat; */
+}
+.about__subtitle {
   text-align: center;
 }
-.title {
+.about__title {
   text-align: center;
 }
