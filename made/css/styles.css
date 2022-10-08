@@ -83,7 +83,7 @@ a {
   background-repeat: no-repeat;
 }
 .about__subtitle {
-  font-family: "Montserrat";
+  font-family: "Montserrat", sans-serif;
   font-style: normal;
   font-weight: 800;
   font-size: 22px;
@@ -97,7 +97,7 @@ a {
   color: #fcfcfc;
 }
 .about__title {
-  font-family: "Seymour One";
+  font-family: "Seymour One", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 34px;
@@ -122,6 +122,8 @@ a {
     display: block;
     margin-left: 32px;
     width: 334px;
+    margin-bottom: 48px;
+    text-align: left;
   }
   .about__content {
     display: flex;
@@ -130,5 +132,14 @@ a {
   }
   .about__korova {
     margin: 0;
+  }
+  .about__text-item:not(:last-child) {
+    margin-bottom: 8px;
+  }
+  .about__title {
+    margin-bottom: 72px;
+  }
+  .about__subtitle {
+    margin-bottom: 12px;
   }
 }
